@@ -1,0 +1,146 @@
+
+/* Basicos */
+
+html,
+body{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/* componentes fora */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+
+/* header */
+
+.hero{
+    font-size: 100%;
+    padding-top: 30px;
+    margin-left: 20%;
+}
+
+header div{
+    background-color: rgb(240, 240, 240);
+}
+
+.logo{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+}
+
+header ul{
+    float: right;
+    margin-right: 20%;
+    margin-top: 20px;
+}
+
+header li{
+    list-style: none;
+    margin-top: 15px;
+}
+
+header li a:link,
+header li a:visited{
+    text-decoration:none;
+    color:green;
+    text-transform: uppercase;
+    border-bottom: 1px transparent green;
+    transition: border-bottom 0.2s;
+}
+
+header li a:active,
+header li a:hover{
+    border-bottom: 1px solid green;
+}
+
+
+/* main page principal */
+
+
+.section-primary{
+    border: 1px solid  rgb(240, 240, 240);
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+.p-button{
+    text-align:center;
+    background-color: rgb(220, 220, 220);
+    height: 300px;
+    border-radius: 1000px;
+}
+
+.p-button a{
+    text-decoration:none;
+    color:green;
+    text-transform: uppercase;
+}
+
+/* main page para cada assunto */
+
+.section-secondary{
+    border: 1px solid  rgb(240, 240, 240);
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+.section-secondary div{
+    text-align:center;
+    background-color: rgb(220, 220, 220);
+    height: 100px;
+    width: 50%;
+    border-radius: 1000px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section-secondary a{
+    text-decoration:none;
+    color:green;
+    text-transform: uppercase;
+}
+
+/* cada subtopico */
+
+.section-explanation{
+    background-color: rgb(233, 233, 233);
+    border: 1px solid  rgb(240, 240, 240);
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+.section-explanation h2{
+    color:green;
+}
+
+
+/* ---------------------------------------------------------------------------------*/
+/* Footer */
+/* ---------------------------------------------------------------------------------*/
+
+
+footer {
+    background-color: #393939;
+    color: #696969;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+footer p {
+    text-align: center;
+    margin: 5px auto;
+    font-size: 90%;
+}
