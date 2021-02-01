@@ -81,6 +81,8 @@ header li a:hover{
 }
 
 
+
+
 /* main page principal */
 
 
@@ -88,7 +90,14 @@ header li a:hover{
     border: 1px solid  rgb(240, 240, 240);
     max-width: 1140px;
     margin: 0 auto 0 auto;
+    
 }
+
+.section-primary a{
+    text-decoration: none;
+    color: rgb(56,152,54);
+}
+
 
 .p-button{
     text-align:center;
